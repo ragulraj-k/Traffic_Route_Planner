@@ -15,29 +15,20 @@ A Streamlit dashboard that demonstrates classic path‑finding algorithms (BFS, 
 ├── app.py               # Streamlit entry‑point (runs `streamlit run app.py`)
 ├── traffic_planner.py   # Core implementation of the road network and algorithms
 ├── requirements.txt     # Python dependencies
-├── .gitignore           # Ignored files for Git
-├── .streamlit/
-│   └── config.toml      # Streamlit configuration (headless, no XSRF, etc.)
 └── README.md            # This file
 ```
 
 ## Setup & local development
 1. **Clone the repository** (or copy the files into a new folder):
    ```bash
-   git clone <repo‑url>
+   git clone https://github.com/ragulraj-k/Traffic_Route_Planner
    cd <repo‑folder>
    ```
-2. **Create a virtual environment** (optional but recommended):
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate   # on Windows
-   # source .venv/bin/activate   # on macOS/Linux
-   ```
-3. **Install dependencies**:
+2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-4. **Run the dashboard**:
+3. **Run the dashboard**:
    ```bash
    streamlit run app.py
    ```
@@ -61,5 +52,3 @@ Feel free to open issues or submit pull requests.  Typical contributions might i
 - Extending the UI with more visualisations.
 - Refactoring for performance or testability.
 
-## License
-This project is provided under the MIT License – see the `LICENSE` file for details.
